@@ -1,17 +1,10 @@
 import './App.css';
-import Header from './Header';
+import Home from './Home';
 
 function App() {
   return (
-    <div className="App">
-      <Header/>
-
-      {/* banner */}
-      <div className="banner">
-            
-      </div>
-        {/* banner ends */}
-        
+    <div className="App">     
+        <Home/>
     </div>
   );
 }
