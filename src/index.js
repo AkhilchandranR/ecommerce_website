@@ -1,10 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import reducer ,{initialState} from './reducer';
+import { StateProvider } from './StateProvider';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* initialState = 1st look of data reducer= manipulation */}
+    <StateProvider initialState = {initialState} reducer={reducer}>
+      <App />
+    </StateProvider>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
