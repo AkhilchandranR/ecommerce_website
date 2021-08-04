@@ -30,3 +30,6 @@
     color: black;
     margin-top: 10px;
 }
+.product__rating{
+    display: flex;
+}
