@@ -26,7 +26,7 @@ function Home() {
 
                 <Product
                 id={11}
-                title="Disano extra virgin olive oil, first cold pressed,1l"
+                title="Disano extra virgin olive oil, first cold pressed,1L"
                 price={6.15}
                 rating={4}
                 image="https://m.media-amazon.com/images/I/712YpNymS3L._SX569_.jpg"/>
